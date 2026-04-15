@@ -1,5 +1,11 @@
-# NA12878-Variant-Calling
-Variant calling analysis of the NA12878 human genome using NGS data including quality control, read alignment, and variant detection using BWA, SAMtools, and BCFtools.
+# Clinical Germline Variant Prioritisation Pipeline
+
+1. NA12878 Gold-Standard Whole Genome  
+2. GATK / BCFtools / Ensembl VEP  
+3. ACMG/AMP Variant Classification  
+4. GIAB Benchmarking Validation# NA12878-Variant-Calling
+5. Variant calling analysis of the NA12878 human genome using NGS data including quality control, read alignment, and variant detection using BWA, SAMtools, and BCFtools.
+
 # NA12878 Variant Calling Analysis
 
 ## Introduction
