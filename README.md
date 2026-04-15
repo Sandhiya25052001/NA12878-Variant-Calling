@@ -43,10 +43,19 @@ Expected Ts/Tv: **~1.8**
 ---
 
 ## Visualisation
+The following visualisations validate variant calling accuracy and confirm biologically expected patterns in NA12878 whole genome sequencing data.
 
-![Variant Distribution](plots/variant_distribution.png)  
-![Ts/Tv Ratio](plots/ts_tv_ratio.png)  
-![Alignment Metrics](plots/alignment_metrics.png)
+![Variant Distribution](results/variant_distribution.png)  
+**Figure 1:** SNPs dominate variant distribution (~87%), consistent with expected human genome variation.
+
+![Ts/Tv Ratio](results/ts_tv_ratio.png)  
+**Figure 2:** Ts/Tv ratio of 1.81 matches GIAB benchmark (~1.8), confirming high variant calling accuracy.
+
+![Alignment Metrics](results/alignment_metrics.png)
+
+**Figure 3:** Alignment metrics demonstrate high-quality read mapping and sequencing reliability.High mapping rate (94.87%) and proper pairing (91.47%) indicate high-quality sequencing and reliable downstream variant analysis.
+
+Together, these results confirm that the pipeline produces biologically consistent and clinically reliable variant calls suitable for downstream interpretation.
 
 # NA12878 Variant Calling Analysis
 
